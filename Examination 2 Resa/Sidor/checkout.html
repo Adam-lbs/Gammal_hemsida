@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    </head>
+    <div class="container">
+      <header>
+        <h2><a href="resebolag.html"><i class="ion-plane"></i> Christians Hotels</a></h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="locations.html" title="Locations">Locations</a>
+          </li>
+          <li>
+            <a href="Support.html" title="Support">Support</a>
+          </li>
+          <li>
+            <a href="checkout.html" title="Checkout">Checkout</a>
+          </li>
+          <li>
+            <a class="btn" href="#" title="Register / Log In">Register/Log In</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+        
+        <body class="coverall">
+            <div class="container">
+                <form>
+                  <div class="row">
+                    <h4>Account</h4>
+                    <div class="input-group">
+                      <input type="text" placeholder="Full Name"/>
+                    </div>
+                    <div class="input-group">
+                      <input type="email" placeholder="Email Adress"/>
+                    </div>
+                    <div class="input-group">
+                      <input type="social security number" placeholder="Social security number"/>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-half">
+                      <h4>Ticket type</h4>
+                      <div class="input-group">
+                        <input id="Ticket-Adult" type="radio" name="Ticket" value="Adult"/>
+                        <label for="Ticket-Adult">Adult</label>
+                        <input id="Ticket-Kid" type="radio" name="Ticket" value="Kid"/>
+                        <label for="Ticket-Kid">Kid</label>
+                      </div>
+                    </div>
+                    <div class="col-half">
+                        <div class="input-group">
+                          <select>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                          </select>
+                          <select>
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>  
+                <div class="row">
+                    <h4>Visit type</h4>
+                    <div class="input-group">
+                      <input id="visit-type-b&b" type="stereo" name="visit-type" value="b&b" checked="true"/>
+                      <label for="visit-type-b&b"><span><i class="fa fa-cc-b&b"></i>B&B</span></label>
+                      <input id="visit-type-hostel" type="stereo" name="visit-type" value="hostel"/>
+                      <label for="visit-type-hostel"> <span><i class="fa fa-cc-hostel"></i>Hostel</span></label>
+                      <input id="visit-type-hotel" type="stereo" name="visit-type" value="hotel"/>
+                      <label for="visit-type-hotel"> <span><i class="fa fa-cc-hotle"></i>Hotel</span></label>
+                    </div>
+                    <div class="col-half">
+                        <div class="input-group">
+                          <select class="visit">
+                            <option>Location</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                          </select>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <h4>From</h4>
+                        <div class="input-group">
+                          <select class="date">
+                            <option>Year</option>
+                          </select>
+                          <select class="date">
+                            <option>Month</option>
+                          </select>
+                          <select class="date">
+                            <option>Day</option>
+                          </select>
+                        </div>
+                </div>
+                <div class="row">
+                    <h4>To</h4>
+                        <div class="input-group">
+                          <select class="date">
+                            <option>Year</option>
+                          </select>
+                          <select class="date">
+                            <option>Month</option>
+                          </select>
+                          <select class="date">
+                            <option>Day</option>
+                          </select>
+                        </div>
+                </div>
+                
+                  <div class="row">
+                    <h4>Payment Details</h4>
+                    <div class="input-group">
+                      <input id="payment-method-card" type="radio" name="payment-method" value="card" checked="true"/>
+                      <label for="payment-method-card"><span><i class="fa fa-cc-visa"></i>Credit Card</span></label>
+                      <input id="payment-method-paypal" type="radio" name="payment-method" value="paypal"/>
+                      <label for="payment-method-paypal"> <span><i class="fa fa-cc-paypal"></i>Paypal</span></label> 
+                    </div>
+                    <div class="input-group input-group-icon">
+                      <input type="text" placeholder="Card Number"/>
+                      <div class="input-icon"><i class="fa fa-credit-card"></i></div>
+                    </div>
+                    <div class="col-half">
+                      <div class="input-group input-group-icon">
+                        <input type="text" placeholder="Card CVC"/>
+                        <div class="input-icon"><i class="fa fa-user"></i></div>
+                      </div>
+                    </div>
+                    <div class="col-half">
+                      <div class="input-group">
+                        <select>
+                          <option>01 Jan</option>
+                          <option>02 Jan</option>
+                        </select>
+                        <select>
+                          <option>2021</option>
+                          <option>2022</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <h4>Terms and Conditions</h4>
+                    <div class="input-group">
+                      <input id="terms" type="checkbox"/>
+                      <label for="terms">I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy policy.</label>
+                    </div>
+                  </div>
+                </form>
+              </div>
+        </body>
+    </div>
